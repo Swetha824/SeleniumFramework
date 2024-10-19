@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-19T15:44:51 IST" name="Suite" finished-at="2024-10-19T15:45:14 IST" duration-ms="22496">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidations.loginErrorValidation()[pri:0, instance:swethapanchumarthy.Tests.ErrorValidations@53045c6c]" name="loginErrorValidation" class="swethapanchumarthy.Tests.ErrorValidations"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2024-10-19T15:44:51 IST" name="Error Validations Test" finished-at="2024-10-19T15:45:14 IST" duration-ms="22115">
+      <class name="swethapanchumarthy.Tests.ErrorValidations">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:swethapanchumarthy.Tests.ErrorValidations@53045c6c]" started-at="2024-10-19T15:44:52 IST" name="launchApplication" finished-at="2024-10-19T15:44:58 IST" duration-ms="6367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:swethapanchumarthy.Tests.ErrorValidations@53045c6c]" started-at="2024-10-19T15:44:58 IST" name="loginErrorValidation" finished-at="2024-10-19T15:44:59 IST" duration-ms="1539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:swethapanchumarthy.Tests.ErrorValidations@53045c6c]" started-at="2024-10-19T15:44:59 IST" name="tearDown" finished-at="2024-10-19T15:45:00 IST" duration-ms="515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:swethapanchumarthy.Tests.ErrorValidations@53045c6c]" started-at="2024-10-19T15:45:00 IST" name="launchApplication" finished-at="2024-10-19T15:45:05 IST" duration-ms="5443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:swethapanchumarthy.Tests.ErrorValidations@53045c6c]" started-at="2024-10-19T15:45:05 IST" name="productErrorValidation" finished-at="2024-10-19T15:45:13 IST" duration-ms="7725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:swethapanchumarthy.Tests.ErrorValidations@53045c6c]" started-at="2024-10-19T15:45:13 IST" name="tearDown" finished-at="2024-10-19T15:45:14 IST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- swethapanchumarthy.Tests.ErrorValidations -->
+    </test> <!-- Error Validations Test -->
+    <test started-at="2024-10-19T15:44:51 IST" name="Submit Order Test" finished-at="2024-10-19T15:45:14 IST" duration-ms="22496">
+      <class name="swethapanchumarthy.Tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:swethapanchumarthy.Tests.SubmitOrderTest@29215f06]" started-at="2024-10-19T15:44:52 IST" name="launchApplication" finished-at="2024-10-19T15:44:58 IST" duration-ms="6384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder()[pri:0, instance:swethapanchumarthy.Tests.SubmitOrderTest@29215f06]" started-at="2024-10-19T15:44:58 IST" name="submitOrder" finished-at="2024-10-19T15:45:08 IST" duration-ms="10117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:swethapanchumarthy.Tests.SubmitOrderTest@29215f06]" started-at="2024-10-19T15:45:08 IST" name="tearDown" finished-at="2024-10-19T15:45:09 IST" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:swethapanchumarthy.Tests.SubmitOrderTest@29215f06]" started-at="2024-10-19T15:45:09 IST" name="launchApplication" finished-at="2024-10-19T15:45:12 IST" duration-ms="3577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:swethapanchumarthy.Tests.SubmitOrderTest@29215f06]" started-at="2024-10-19T15:45:12 IST" name="OrderHistoryTest" finished-at="2024-10-19T15:45:14 IST" depends-on-methods="swethapanchumarthy.Tests.SubmitOrderTest.submitOrder" duration-ms="1375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:swethapanchumarthy.Tests.SubmitOrderTest@29215f06]" started-at="2024-10-19T15:45:14 IST" name="tearDown" finished-at="2024-10-19T15:45:14 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- swethapanchumarthy.Tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
